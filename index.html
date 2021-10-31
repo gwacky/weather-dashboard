@@ -17,15 +17,16 @@
     <nav class="text-center fs-1">Weather Dashboard</nav>
 
     <main>
+        <div class="row">
         <!-- search for a city -->
         <section>
             <!-- input and search button -->
-            <div id="citySearch">
+            <div id="citySearch col-3">
                 <h2 class="citySearch" >Search for a City:</h2>
                 <!-- input field for city search -->
-                <input class="opacity-30 col-3 d-block" type="text" placeholder="Enter a City" />
+                <input id="searchInput" class="opacity-30 col-3 d-block" type="text" placeholder="Enter a City" />
                 <!-- search button -->
-                <button class="d-block w-25 btn btn-primary searchButton" type="button">Search</button>
+                <button id="searchButton" class="d-block w-25 btn btn-primary searchButton" type="button">Search</button>
             </div>
 
             <!-- previous searches logged to local storage -->
@@ -33,15 +34,23 @@
 
         </section>
 
-        <!-- current day weather -->
+        <!-- current day weather and five day forecast -->
         <section>
+            <!-- current weather -->
+            <div class="row">
+                <div class="col-9">
+                    
+                </div>
+
+            </div>
+            <!-- five day forecast -->
+            <div>
+
+            </div>
 
         </section>
+        </div>
 
-        <!-- five day forcast -->
-        <section>
-
-        </section>
     </main>
 
     <script src="./assets/script.js"></script>
