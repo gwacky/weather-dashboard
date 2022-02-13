@@ -1,0 +1,38 @@
+header {
+    background: linear-gradient(to right, rgb(70, 70, 233), hsl(240, 72%, 21%));
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+
+input {
+    width: 100%;
+}
+
+.btn {
+    width: 100%;
+}
+
+hr {
+    width: 100%;
+}
+
+.btn-primary {
+    background-color: rgb(0, 132, 255);
+}
+
+ul {
+    margin-left: 0px;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+ul li {
+    padding-bottom: 0.5rem;
+    font-size: small;
+}
+
+h4 {
+    font-size: small;
+    font-weight: bold;
+}
